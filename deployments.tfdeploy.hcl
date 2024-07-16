@@ -3,7 +3,7 @@ identity_token "aws" {
 }
 
 deployment "production" {
-  variables = {
+  inputs = {
     region              = "eu-west-2"
     availability_zones  = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
     role_arn            = "arn:aws:iam::958215610051:role/tfc-wif-guybarros"
