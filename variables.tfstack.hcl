@@ -21,13 +21,6 @@ variable "key_pair_name" {
   type = string
 }
 
-variable "network" {
-  description = "Information about network objects declared elsewhere."
-  type = object({
-    vpc_id             = string
-    private_subnet_ids = set(string)
-  })
-}
 
 variable "availability_zones" {
   description = "List of availability zones in the region"
