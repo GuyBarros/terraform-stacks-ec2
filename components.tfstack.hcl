@@ -2,6 +2,7 @@ component "vpc" {
   source = "./vpc"
 
   inputs = {
+    availability_zones = var.availability_zones
   }
 
   providers = {

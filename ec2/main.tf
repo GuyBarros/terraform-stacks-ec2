@@ -1,5 +1,5 @@
 terraform {
-  experiments = [ unknown_instances ]
+ # experiments = [ unknown_instances ]
 }
 
 # Create an EC2 instance running Ubuntu in each subnet
